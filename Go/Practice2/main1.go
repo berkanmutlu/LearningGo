@@ -7,18 +7,18 @@ type myStruct struct {
 }
 
 func (m *myStruct) printFirstName() string {
-	m.FirstName = "Eyyub Ensar"
+	m.FirstName = "Berkan"
 	return m.FirstName
 }
 
 func main() {
 
 	var myVar myStruct
-	myVar.FirstName = "Eyyub Ensar"
+	myVar.FirstName = "Berkan"
 	fmt.Println("var1 ", myVar.printFirstName())
 
 	myVar2 := myStruct{
-		FirstName: "Eyyub Ensar MERMER",
+		FirstName: "Berkan mutlu",
 	}
 
 	fmt.Println("var2", myVar2.printFirstName())
